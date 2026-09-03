@@ -7,10 +7,6 @@
 body {
   font-family: system-ui, -apple-system, Arial, Helvetica, sans-serif,"Segoe UI", Roboto, sans-serif;
   color: #111;
-  background: linear-gradient(180deg, #4A80E5 0%,
-        #47B3E4 50%,
-        #F2E8D6 100%
-    );
   background: white;
 }
 
@@ -20,14 +16,6 @@ body {
   background: #ffffff;
   height: 98px;
   padding: 0 80px;
-  align-items: center ;
-}
-.hero{
-   min-height: 650px;
-  background: linear-gradient(180deg, #4A80E5 0%,
-        #47B3E4 50%,
-        #F2E8D6 100%
-    );
 }
 
 .logo {
@@ -45,9 +33,47 @@ nav {
 }
 nav a{
   text-decoration: none;
-  columns: #111111;
+  color: #111111;
   font-size: 14px; 
 }
+.header-action{
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-left: auto;
+}
+.header-action button{
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.header-action img{
+  width: 20px;
+  height: 20px;
+}
+.icon-button{
+  width: 48px;
+  height: 48px;
+  border: 1px solid #7FA3FF;
+  background: #7FA3FF;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-radius:50%;
+  justify-content: center;  
+
+}
+.sign-in{
+  border: 1px solid #7FA3FF;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 14px;
+  background: white;
+  cursor: pointer;
+}
+.hero{
+   min-height: 650px;
+  background: white
 
 .hero-image{
   width: 52%;
@@ -64,7 +90,7 @@ nav a{
 }
 main{
   display: flex;
-  background: #d8f8fa;
+  background: white;
   justify-content: space-between;
   padding: 48px 80px;
   align-items: center;
