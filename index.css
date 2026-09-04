@@ -71,9 +71,33 @@ nav a{
   background: white;
   cursor: pointer;
 }
+
+.hero > * {
+    outline: 2px solid red;
+}
+
+.hero-main{
+  display: flex;
+  align-items: center;
+  padding: 48pz 80px;
+  gap: 30px;
+}
+.hero-content{
+  width: 48%;
+}
+
 .hero{
+  display: flex;
+  width: 100%;
    min-height: 650px;
-  background: white
+   align-items: center;
+   flex-wrap: wrap;
+ background: linear-gradient(
+        180deg,
+        #4A80E5 0%,
+        #47B3E4 50%,
+        #F2E8D6 100%
+    );}
 
 .hero-image{
   width: 52%;
@@ -89,8 +113,12 @@ nav a{
   display: block;
 }
 main{
-  display: flex;
-  background: white;
+  background: linear-gradient(
+        180deg,
+        #4A80E5 0%,
+        #47B3E4 50%,
+        #F2E8D6 100%
+    );
   justify-content: space-between;
   padding: 48px 80px;
   align-items: center;
