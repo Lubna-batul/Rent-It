@@ -72,35 +72,38 @@ nav a{
   cursor: pointer;
 }
 
-.hero > * {
-    outline: 2px solid red;
-}
-
 .hero-main{
   display: flex;
   align-items: center;
-  padding: 48pz 80px;
+  padding: 48px 80px;
   gap: 30px;
 }
 .hero-content{
-  width: 48%;
+  width: 46%;
+}
+.search-box{
+  margin:0 40px;
+}
+.watch-video{
+  margin: 0 40px;
+}
+.hero-bottom{
+  margin: 0 40px;
 }
 
 .hero{
-  display: flex;
-  width: 100%;
+    width: 100%;
    min-height: 650px;
-   align-items: center;
-   flex-wrap: wrap;
- background: linear-gradient(
+     background: linear-gradient(
         180deg,
         #4A80E5 0%,
         #47B3E4 50%,
         #F2E8D6 100%
-    );}
+    );
+}
 
 .hero-image{
-  width: 52%;
+  width: 54%;
   height: 484px;
   overflow: hidden;
   border-radius: 8px;
@@ -113,20 +116,9 @@ nav a{
   display: block;
 }
 main{
-  background: linear-gradient(
-        180deg,
-        #4A80E5 0%,
-        #47B3E4 50%,
-        #F2E8D6 100%
-    );
-  justify-content: space-between;
-  padding: 48px 80px;
-  align-items: center;
-  min-height: 652px;
+  background:white;
 }
-main >div:after-child{
-  width: 46%;
-}
+
 h1{
   font-family: Georgia, serif;
   font-size: 58px;
